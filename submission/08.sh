@@ -1,2 +1,4 @@
 # what block height was this tx mined ?
 # 49990a9c8e60c8cba979ece134124695ffb270a98ba39c9824e42c4dc227c7eb
+bitcoin-cli -signet getrawtransaction 49990a9c8e60c8cba979ece134124695ffb270a98ba39c9824e42c4dc227c7eb true
+bitcoin-cli -signet getblock 00000013d6f645eb606b8bc46d4dbf40b21764533c2ea3737a7991f59afc9f04f
