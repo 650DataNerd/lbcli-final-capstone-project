@@ -1,1 +1,4 @@
 # How many satoshis did this transaction pay for fee?: b71fb9ab7707407cc7265591e0c0d47d07afede654f91de1f63c0cb522914bcb
+bitcoin-cli -signet getrawtransaction b71fb9ab7707407cc7265591e0c0d47d07afede654f91de1f63c0cb522914bcb true
+bitcoin-cli -signet getrawtransaction 6d5d134b8d3c02d88196d8f483fbff5a9bb121bf8c53e5967f287cdf17f60bc true
+Fee = Total Inputs - Total Outputs
